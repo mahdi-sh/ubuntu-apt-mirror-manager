@@ -1,0 +1,6 @@
+sudo tee /etc/apt/sources.list >/dev/null <<EOF
+deb http://mirror.arvancloud.ir/ubuntu jammy main restricted universe multiverse
+deb http://mirror.arvancloud.ir/ubuntu jammy-updates main restricted universe multiverse
+deb http://mirror.arvancloud.ir/ubuntu jammy-backports main restricted universe multiverse
+deb http://mirror.arvancloud.ir/ubuntu jammy-security main restricted universe multiverse
+EOF
